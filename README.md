@@ -1,7 +1,7 @@
-# CAMP
+# Censoring-based analysis of microbiome proportions (CAMP)
 
 ### Overview
-This repository provides a demonstration on how to use the `R` package CAMP
+This repository provides a demonstration on how to use the `R` package `camp`
 
 # System Requirements
 
