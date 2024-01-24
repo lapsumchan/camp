@@ -14,7 +14,9 @@ The source code has been tested on Microsoft's Windows 10 operating system and L
 Before using the DrFARM source code, users should have `R` version 4.3.0 or higher, and several packages installed.
 
 ### Installation  
-First, we need to install `camp`:
+
+First, we need to install `camp`:  
+
     install.packages("camp_1.0.tar.gz", repos = NULL)
 
 Then, we need to install `survival`:  
@@ -100,7 +102,7 @@ GenData <- function(seed, n1, n2, p,
 camp_dat <- GenData(seed, n1, n2, p, signal_prop, sum_const, a)
 ```
 
-camp_dat is a list which contains a (n x p) OTU table and a length n vector of group labels.
+`camp_dat` is a list which contains a (`n x p`) OTU table and a length `n` vector of group labels.
 
 Then, in order to run camp, we simply need to input the OTU table and corresponding group labels.
 ```
