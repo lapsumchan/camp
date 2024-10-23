@@ -31,7 +31,7 @@ To run the simulated data example, you will also need to install `MCMCpack`:
 
 # Demo
 
-We first load all the source code dependencies:
+We first load all the dependencies required by the package:
 
 ```
 library(camp)
