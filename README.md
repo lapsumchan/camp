@@ -17,7 +17,7 @@ Before using `R` package, users should have `R` version 4.3.0 or higher, and sev
 
 First, we need to install `camp`, which can be done using `devtools`:  
 
-    devtools::install_github("lapsumchan/MVMR-cML-SuSiE")
+    devtools::install_github("lapsumchan/camp")
 
 Then, we need to install `survival`:  
 
