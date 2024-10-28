@@ -1,0 +1,14 @@
+Package: camp
+Type: Package
+Title: Implementation of censoring-based analysis of microbiome proportions (CAMP)
+Version: 1.1
+Date: 2024-10-27
+Author: Lap Sum Chan
+Maintainer: Lap Sum Chan <chan2429@umn.edu>
+Description: This package implements CAMP with or without adjustment covariates. If no additional adjustment covariates beside the group label, log-rank test is used; otherwise, Cox proportional hazards model is used.
+License: GPL (>= 3)
+Encoding: UTF-8
+RoxygenNote: 7.3.1
+Imports:
+    survival,
+    MCMCpack
