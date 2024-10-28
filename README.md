@@ -49,6 +49,8 @@ camp.dat <- GenData(seed, n1, n2, p, signal.prop, sum.const, a)
 
 `camp.dat` is a list which contains an (`n x p`) OTU table and a length `n` vector of group labels.
 
+**Note: It has been observed that simulated data might vary slightly across different machines, even with the same seed (1). To ensure consistency, a version of the simulated data (`camp.dat`) has been lazy-loaded within the `camp` package. Using this pre-loaded data ensures reproducibility across different systems.**
+
 To run camp, use the OTU table and group labels as inputs:
 ```
 camp.res <- camp(camp.dat$OTU, camp.dat$Group)
@@ -57,9 +59,7 @@ head(camp.res)
 
 # Output
 
-Depending on the number of covariates included, the output will either be a length `p` vector of p-values or a (`p x q`) data frame of p-values, where `q` is the number of covariates. In this case, since the covariate `cov` only involves the group label (length `n` vector), the output of `camp` is a length `n` vector of p-values.
-
-**Note: It has been observed that simulated data might vary slightly across different machines, even with the same seed (1). To ensure consistency, a version of the simulated data (`camp.dat`) has been lazy-loaded within the `camp` package. Using this pre-loaded data ensures reproducibility across different systems.**
+Depending on the number of covariates included, the output will either be a length `p` vector of p-values or a (`p x q`) data frame of p-values, where `q` is the number of covariates. In this case, since the covariate `cov` only involves the group label (length `n` vector), the output of `camp` is a length `n` vector of p-values. Regardless of machine, the `camp` method itself is deterministic and should yield identical results given the same input data:
 
 ```
 > head(camp.res)
