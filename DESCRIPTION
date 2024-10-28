@@ -9,6 +9,7 @@ Description: This package implements CAMP with or without adjustment covariates.
 License: GPL (>= 3)
 Encoding: UTF-8
 RoxygenNote: 7.3.1
+LazyData: true
 Imports:
     survival,
     MCMCpack
