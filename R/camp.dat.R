@@ -1,0 +1,24 @@
+#' Example data
+#'
+#' A list containing data for an example OTU table and associated group labels
+#'
+#' @format A list with the following components:
+#' \describe{
+#'   \item{OTU}{A 200 x 1000 matrix. Each row represents a sample, and each column represents an OTU feature. This matrix includes data for two groups combined (100 samples per group).}
+#'   \item{Group}{A vector of length 200 with values "Group 1" or "Group 2", indicating the group label for each sample.}
+#' }
+#' @details The data is intended for testing and illustration purposes, particularly for analyses involving OTU data and group classification.
+#'
+#' @examples
+#' # Load the data
+#' data(camp.dat)
+#'
+#' # Display the structure of the data
+#' str(camp.dat)
+#'
+#' # Access the OTU matrix and Group label vector
+#' OTU <- camp.dat$OTU
+#' label <- camp.dat$Group
+#'
+#' @source Simulated data
+"camp.dat"
