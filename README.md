@@ -19,16 +19,8 @@ First, we need to install `camp`, which can be done using `devtools`:
 
     # install.packages("devtools") 
     devtools::install_github("lapsumchan/camp")
-
-Then, we need to install `survival`:  
-
-    install.packages("survival")
     
 which should install within a couple of minutes on a standard machine.
-   
-To run the simulated data example, you will also need to install `MCMCpack`:  
-
-    install.packages("MCMCpack")
 
 # Demo
 
