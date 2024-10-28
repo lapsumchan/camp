@@ -63,3 +63,10 @@ Depending on the number of covariates included, the output will either be a leng
 > head(camp.res)
 [1] 3.710057e-03 1.110223e-16 3.561546e-05 3.406422e-03 1.208696e-05 1.957646e-04
 ```
+
+# Citation
+
+If you use CAMP in your research, please cite our paper:
+```
+Chan, Lap Sum, and Gen Li. "Zero is not absence: censoring-based differential abundance analysis for microbiome data." Bioinformatics 40.2 (2024): btae071.
+```
