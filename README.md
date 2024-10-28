@@ -67,5 +67,5 @@ Depending on the number of covariates included, the output will either be a leng
 # Citation
 
 If you find `camp` useful, please cite:
-> Chan, Lap Sum, and Gen Li. "Zero is not absence: censoring-based differential
-> abundance analysis for microbiome data." Bioinformatics 40.2 (2024): btae071.
+> Chan, Lap Sum, and Gen Li. "Zero is not absence: censoring-based differential abundance analysis for microbiome data." Bioinformatics
+> 40.2 (2024): btae071.
