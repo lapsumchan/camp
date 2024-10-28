@@ -33,7 +33,7 @@ library(survival)
 library(MCMCpack)
 ```
 
-The data can be generated using the following code:
+Simulated data can be generated using the following code:
 
 ```
 seed <- 1
