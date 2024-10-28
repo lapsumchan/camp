@@ -57,7 +57,7 @@ head(camp.res)
 
 # Output
 
-Depending the number of covariates included, the output is either a length `p` vector of p-values or a (`p x q`) data frame of p-values. In this case, since the covariate `cov` only involves the group label (length `n` vector), the output of `camp` is a length `n` vector of p-values.
+Depending on the number of covariates included, the output will either be a length `p` vector of p-values or a (`p x q`) data frame of p-values, where `q` is the number of covariates. In this case, since the covariate `cov` only involves the group label (length `n` vector), the output of `camp` is a length `n` vector of p-values.
 
 ```
 > head(camp.res)
